@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzServiceBusClient.ConsoleApp", "AzServiceBusClient.ConsoleApp\AzServiceBusClient.ConsoleApp.csproj", "{07976420-AD43-4ACD-937D-421BB84C761B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctionServiceBusReceiver", "AzureFunctionServiceBusReceiver\AzureFunctionServiceBusReceiver.csproj", "{A2404562-4EF6-46A9-9646-BFE91CEA7591}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{07976420-AD43-4ACD-937D-421BB84C761B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07976420-AD43-4ACD-937D-421BB84C761B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07976420-AD43-4ACD-937D-421BB84C761B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2404562-4EF6-46A9-9646-BFE91CEA7591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2404562-4EF6-46A9-9646-BFE91CEA7591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2404562-4EF6-46A9-9646-BFE91CEA7591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2404562-4EF6-46A9-9646-BFE91CEA7591}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
